@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - reset to 98
+ * reset to 98- points to 98
  * @n: value of pointer
  * Return: Always 0.
  */
