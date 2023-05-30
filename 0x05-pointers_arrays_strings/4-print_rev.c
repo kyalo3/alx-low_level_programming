@@ -19,7 +19,7 @@ void print_rev(char *s)
 
 	s--;
 
-	for (o = letter; o > 0; 0--)
+	for (o = letter; o > 0; o--)
 
 	{
 		_putchar(*s);
