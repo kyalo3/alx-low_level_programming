@@ -2,13 +2,29 @@
 /**
  * print_rev - prints a string
  * in reverse
- * @str: string to print
+ * @s: string to print
+ * return: 0
  */
 void print_rev(char *s)
 {
-	while (*str != '\0')
+	int letter = 0;
+
+	int o;
+
+	while (*s != '\0')
 	{
-		_putchar(*str--);
+		letter++;
+		s++;
 	}
+
+	s--;
+
+	for (o = letter; o > 0; 0--)
+
+	{
+		_putchar(*s);
+		s--;
+	}
+
 	_putchar('\n');
 }
