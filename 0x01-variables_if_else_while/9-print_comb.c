@@ -3,7 +3,7 @@
 /**
 * main - entry point
 * Description: prints numbers
-* Reutnr: always 0 (success)
+* Return: always 0 (success)
 */
 int main(void)
 {
