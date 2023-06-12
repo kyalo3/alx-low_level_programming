@@ -2,9 +2,9 @@
 #include "main.h"
 
 /*
- * main - prints the name of the program
- * argv: the array of program in the command line
- * argc: the argument count
+ * main - entry point of the program
+ * @argv: the array of program in the command line
+ * @argc: the argument count
  * Return: always 0 (success)
  */
 int main(int argc __attribute__((unused)), char *argv[])
