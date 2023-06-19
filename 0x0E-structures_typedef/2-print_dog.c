@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "dog.h"
-
+#include <stdlib.h>
 /**
  * print_dog - prints the struct dog
  * @d: string
- *
  * return: 0 on NULL, 1 on success
  */
 
