@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - contains ...
@@ -10,8 +10,8 @@
  */
 struct dog
 {
-        char *name;
-        float age;
-        char *owner;
+	char *name;
+	float age;
+	char *owner;
 };
 #endif
