@@ -10,9 +10,7 @@
 
 int main(void)
 {
-	char *file_name = (char *)malloc(strlen(__FILE__) + 1);
-
-	printf("2-main.c %s\n", file_name);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
