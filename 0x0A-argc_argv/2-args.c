@@ -6,8 +6,12 @@
  * Description: prints all arguments
  * Return: 0 on success, non-zero on failure
  */
-int main(int argc, char *argv[]_ _attribute_ _((unused)))
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	int i;
+	for (i = 0; i <argc; i++)
+	{
+	printf("%s\n", argv[i]);
+	}
 	return (0);
 }
