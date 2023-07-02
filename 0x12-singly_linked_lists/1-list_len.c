@@ -6,16 +6,17 @@
  * list_len - a function that returns the number of elements in a linked list
  * Return: the number of elements
  * @h: pointer
+ * Description: returns the number of elements
  */
 
 size_t list_len(const list_t *h)
 {
-	int c = o;
+	int n = 0;
 
-	while (c != NULL)
+	while (h != NULL)
 	{
-		c++;
-		c = c->next;
+		n++;
+		h = h->next;
 	}
-	return (c);
+	return (n);
 }
