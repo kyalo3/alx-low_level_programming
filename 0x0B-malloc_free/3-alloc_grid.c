@@ -21,10 +21,12 @@ int **alloc_grid(int width, int height)
 	{
 		return (NULL);
 	}
+	grid = calloc(sizeof(int *),  height);
 
 	for (row = 0; row < height; row++)
 	{
-		grid[row] = malloc(sizeof(int) * width);
+		grid[row] = calloc(sizeof(int),  width);
+
 		if (grid[row] == NULL)
 		{
 			for (column = 0; column < row; column++)
