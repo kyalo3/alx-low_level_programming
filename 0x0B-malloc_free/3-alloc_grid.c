@@ -4,7 +4,7 @@
 
 /**
  * alloc_grid - prints a grid of integers
- * @grid: the address of the two dimensional grid
+ * @grid: the address
  * @width: width of the grid
  * @height: height of the grid
  *
