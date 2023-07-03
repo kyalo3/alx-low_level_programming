@@ -1,5 +1,12 @@
 #include "main.h"
-
+/**
+*divisible - function declaration
+*@my_num: number to test
+*is_prime_number: function definition
+*Description: check if number is prime
+*@divisor: divisor to use
+*Return: 0 or 1
+*/
 int divisible(int my_num, int divisor);
 
 int is_prime_number(int n);

@@ -13,7 +13,7 @@
 
 int my_sqrt(int my_num, int my_root)
 {
-	if ((my_root * my _root) == my_num)
+	if ((my_root * my_root) == my_num)
 	{
 		return (my_root);
 	}
@@ -41,6 +41,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (my_sqt(n, the_root));
+		return (my_sqrt(n, the_root));
 	}
 }
