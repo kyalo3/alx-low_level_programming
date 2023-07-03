@@ -2,10 +2,15 @@
 #include <stdio.h>
 
 /**
-*palindromeChecker - checks the string
+* palindromeChecker - checks the string
 * Return: 1 if its a palindrome
 * is_palindrome -  checks to see if string is a palindrome
 * @s: string to check
+* @str: string
+* @len: lenth of string
+* @i: incremetor
+* _strlen_recursion - returns the length of a string
+* Description: the palindrome functions
 */
 
 int palindromeChecker(char *str, int len, int i)
