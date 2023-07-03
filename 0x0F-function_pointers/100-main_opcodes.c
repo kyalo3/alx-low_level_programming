@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+  *main - entry point
+  *@argc: argument count
+  *@argv: an array of arguments
+  *Return: always 0
+  */
 int main(int argc, char *argv[])
 {
 	int bytes, index;
@@ -17,7 +22,7 @@ int main(int argc, char *argv[])
 	if (bytes < 0)
 	{
 		printf("Error\n");
-		exit (2);
+		exit(2);
 	}
 
 	for (index = 0; index < bytes; index++)
