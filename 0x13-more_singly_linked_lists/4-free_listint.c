@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * free_listint - function that frees listint_t
  *
