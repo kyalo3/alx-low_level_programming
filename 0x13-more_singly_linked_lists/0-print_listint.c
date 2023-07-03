@@ -2,10 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-
 /**
  * print_listint- function to print all elements
- * @format: 
+ * @h: pointer
  * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
@@ -19,5 +18,5 @@ size_t print_listint(const listint_t *h)
 	count++;
 	}
 
-	return count;
+	return (count);
 }
