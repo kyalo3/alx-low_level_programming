@@ -27,6 +27,12 @@ int divisible(int my_num, int divisor)
 	}
 }
 
+
+/**
+*is_prime_number - function definition to check prime number
+*@n: number
+*Return: 0 or 1
+*/
 int is_prime_number(int n)
 {
 	int divisor = 2;
