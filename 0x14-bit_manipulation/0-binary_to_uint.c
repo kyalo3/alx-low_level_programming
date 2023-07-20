@@ -3,7 +3,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimal = 0;
-	int str_len = 0, bas = 1;
+	int str_len = 0, base = 1;
 
 	if (!check_valid_string(b))
 		return (0);
@@ -13,7 +13,7 @@ unsigned int binary_to_uint(const char *b)
 
 	while (str_len)
 	{
-		decimal += ((b[str_len - 1] - '0' * base);
+		decimal += ((b[str_len - 1] - '0') * base);
 		base *= 2;
 		str_len--;
 	}
