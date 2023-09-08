@@ -1,3 +1,4 @@
+#include "hash_tables.h"
 /**
 * hash_djb2 - function is used to calculate a
 * hash value for a given input string
