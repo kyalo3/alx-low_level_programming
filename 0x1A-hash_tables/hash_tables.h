@@ -1,9 +1,16 @@
-#ifndef "HASH_TABLES"
-#define "HASH_TABLES"
+#ifndef HASH_TABLES
+#define HASH_TABLES
 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+/*#define MAX_NAME 265*/
 
 /**
  * struct hash_node_s - Node of a hash table
