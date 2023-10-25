@@ -1,7 +1,4 @@
-school: path/to/main.c
-	gcc -o school path/to/main.c
+school: main.c
+	gcc main.c school.c -o school
 
 all: school
-
-clean:
-	rm -f school
