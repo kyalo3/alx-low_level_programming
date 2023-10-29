@@ -3,7 +3,7 @@
 
 
 def island_perimeter(grid):
-    """ a function to determine the perimeter of a land 
+    """ a function to determine the perimeter of a land
     the time complaxity of this algorithm is O(n)"""
 
     perimeter = 0
